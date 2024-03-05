@@ -5,55 +5,55 @@ const Hero = () => {
   const [displayedSections, setDisplayedSections] = useState([]);
   const sectionsData = [
     {
-      imageUrl: "https://source.unsplash.com/featured/?art",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/Designer-1-1.png",
       category: "Painting",
       title: "Starry Night",
       description: "Vincent van Gogh's masterpiece depicting a starry night sky over a quaint village."
     },
     {
-      imageUrl: "https://source.unsplash.com/featured/?paint",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/Designer-2-1.png",
       category: "Sculpture",
       title: "David",
       description: "Michelangelo's iconic marble sculpture of the biblical hero David."
     },
     {
-      imageUrl: "https://source.unsplash.com/featured/?texture",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/Designer-3-1.png",
       category: "Photography",
       title: "The Afghan Girl",
       description: "Steve McCurry's famous photograph capturing the haunting green eyes of an Afghan refugee girl."
     },
     {
-      imageUrl: "https://source.unsplash.com/featured/?color",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/Designer-4-1.png",
       category: "Digital Art",
       title: "Composition VII",
       description: "Wassily Kandinsky's abstract masterpiece showcasing vibrant colors and geometric shapes."
     },
     {
-      imageUrl: "",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/OIG3-1.jpeg",
       category: "Street Art",
       title: "Banksy's Artwork",
       description: "Banksy's thought-provoking street art pieces challenging societal norms and political issues."
     },
     {
-      imageUrl: "https://source.unsplash.com/featured/?painhttps://source.unsplash.com/featured/?sketcht",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/Designer-6-1.png",
       category: "Performance Art",
       title: "The Artist is Present",
       description: "Marina Abramović's performance art piece where she sat silently opposite visitors for 736 hours."
     },
     {
-      imageUrl: "https://source.unsplash.com/featured/?textures",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/Designer-7-1.png",
       category: "Installation Art",
       title: "The Gates",
       description: "Christo and Jeanne-Claude's installation art project consisting of 7,503 gates adorned with saffron-colored fabric in Central Park."
     },
     {
-      imageUrl: "https://source.unsplash.com/featured/?pottery",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/Designer-8-1.png",
       category: "Ceramics",
       title: "Wedgwood Pottery",
       description: "Wedgwood's exquisite ceramic creations known for their craftsmanship and intricate designs."
     },
     {
-      imageUrl: "https://source.unsplash.com/featured/?mixedmedia",
+      imageUrl: "https://dheerajhere.com/wp-content/uploads/2024/03/Designer-9-1.png",
       category: "Mixed Media",
       title: "Untitled",
       description: "An experimental mixed media artwork combining various materials to evoke different textures and meanings."
@@ -71,7 +71,7 @@ const Hero = () => {
         const nextIndex = (prev[prev.length - 1].index + 1) % sectionsWithIndex.length;
         return sectionsWithIndex.slice(nextIndex, nextIndex + 3);
       });
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
