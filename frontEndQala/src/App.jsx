@@ -11,8 +11,8 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/explore" element={<Explore />} />
-        <Route path="signin" element={<UserAuthForm type="sign-in" />} />
-        <Route path="signup" element={<UserAuthForm type="sign-up" />} />
+{/*         <Route path="signin" element={<UserAuthForm type="sign-in" />} />
+        <Route path="signup" element={<UserAuthForm type="sign-up" />} /> */}
       </Route>
     </Routes>
   );
